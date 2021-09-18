@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Curriculum Vitae</title>
+        <meta name="description" content="Curriculum Vitae AndMinin">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript,Php,Python,Nodejs,Angular,Django,Flask,Programer,Developer,Designer,Desarrollador,curriculum,">
+        <meta name="author" content="AndMinin">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+            
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Exo+2:600'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,700,900'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css' )}}">
+    </head>
+    <body>
+         {% block content %}
+
+          {% endblock content %}
+
+
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script  src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <!--template-->
+
+
+    </body>
+    </html>
